@@ -1,0 +1,124 @@
+.workPages-color {
+	background-color: #ec1e39;
+}
+
+
+.title {
+	color: black;
+	text-align: center;
+	font-family: 'Helvetica Neue';
+	font-size: 80px;
+	font-weight: bold;
+	margin-top: 30px;
+}
+
+.center {
+	text-align: center;
+}
+
+
+.subtitles {
+	color: black;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	margin-top: 15%;
+}
+
+.main-text {
+	color: black;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 16px;
+	margin-top: 5%;
+}
+
+.pic-text {
+	margin-top: 5%;
+	text-align: center;
+	color: black;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.accent-text {
+	margin-top: 3%;
+	color: black;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.bottom-text {
+	margin-bottom: 20%;
+}
+
+.time-margin {
+	margin-top: auto;
+}
+
+
+.information-container {
+	padding: 5%;
+	padding-top: 0%;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.title-container {
+	margin-bottom: 30px;
+}
+
+.text-container {
+	padding-top: 10px;
+	margin-right: 12%;
+	margin-left: 12%;
+	background-color: #F5F5F5;
+	opacity: 0.95;
+}
+
+img {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10%;
+	max-width: 80%;
+	max-height: 500px;
+}
+
+.front-end-pics {
+	text-align: center;
+	display: inline-block;
+	margin-left: 8%;
+	margin-right: auto;
+	max-width: 40%;
+}
+
+.java-pic {
+	max-height: 250px;
+}
+
+.login-pic {
+	max-height: 300px;
+}
+
+.code-loc-text {
+	text-align: center;
+	font-size: 12px;
+}
+
+.rightLink {
+	color: black;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+}
+.rightLink:hover, #WF1Web:hover, #WF2Web:hover,
+ #WF1Mobile:hover, #WF2Mobile:hover, #clubHubLink:hover,
+ #ConsWeb:hover, #ConsMobile:hover, #ConsTablet:hover, 
+ #ConsCode:hover {
+	cursor: pointer;
+	color: white;
+}
+
+

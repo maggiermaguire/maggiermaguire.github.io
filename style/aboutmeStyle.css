@@ -1,0 +1,45 @@
+.aboutme-color {
+	background-color: #eeeb6d;
+}
+
+.profilePic {
+	display: block;
+	margin-top: 90px;
+	margin-left: 25%;
+	max-width: 290px;
+}
+
+.textContainer {
+	display: inline-block;
+	float: right;
+	margin-top: 0px;
+	margin-left: 45%;
+	margin-right: 20%;
+}
+
+.text {
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.center {
+	text-align: center;
+}
+
+.title {
+	font-family: 'Helvetica Neue', sans-serif;
+	font-weight: bold;
+	font-size: 100px;
+}
+
+.rightLink {
+	color: black;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+}
+.rightLink:hover {
+	cursor: pointer;
+	color: white;
+}

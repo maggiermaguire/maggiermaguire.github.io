@@ -1,0 +1,66 @@
+#ResTri {
+	position: absolute;
+	display: inline-block;
+	margin-top: auto;
+	left: 15%;
+	top: 294.083px;
+	height: 20vw;
+	width: 30vw;
+
+}
+
+#AMTri {
+	position: absolute;
+	display: inline-block;
+	margin-top: auto;
+	left: 55%;
+	top: 294.083px;
+	height: 20vw;
+	width: 30vw;
+}
+
+#PortTri {
+	position: absolute;
+	display: inline-block;
+	left: 35%;
+	top: 270.201px;
+	margin-top: auto;
+	height: 20vw;
+	width: 30vw;
+}
+
+#mail {
+	position: absolute;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 80px;
+}
+
+#LinkedIn {
+	position: absolute;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 80px;
+}
+
+#GitHub {
+	position: absolute;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 80px;
+}
+
+#ResTri:hover, #AMTri:hover, #PortTri:hover, 
+#mail:hover, #LinkedIn:hover, #GitHub:hover {
+	cursor: pointer;
+}
+
+.grow { 
+	transition: all .2s ease-in-out; 
+}
+.grow:hover { 
+	transform: scale(1.2); 
+}

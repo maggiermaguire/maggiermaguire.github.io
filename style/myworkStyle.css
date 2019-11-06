@@ -1,0 +1,50 @@
+.mywork-color {
+	background-color: #ec1e39;
+}
+
+.workTitle {
+	color: black;
+	text-align: center;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-weight: bold;
+	font-size: 100px;
+	margin-top: 7%;
+	margin-bottom: 8%;
+}
+
+.mainContainer {
+	margin-right: 25%;
+	margin-left: 25%;
+}
+
+
+.halfContainer {
+	display: inline-block;
+	width: 39%;
+	margin-right: 5%;
+	margin-left: 5%;
+	margin-top: 5%;
+	transition: all .2s ease-in-out;
+	margin-bottom: 10%;
+}
+
+.halfContainer:hover {
+	cursor: pointer;
+	transform: scale(1.3);
+}
+
+img {
+	max-width: 100%
+}
+
+.rightLink {
+	color: black;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+}
+.rightLink:hover {
+	cursor: pointer;
+	color: white;
+}
+
