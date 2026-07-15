@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="15 -60 1300 440" font-family="Georgia, serif">
+  <rect x="15" y="-60" width="1300" height="440" fill="#FFFFFF"/>
+
+  <!-- tick lines -->
+  <g stroke="#B9B2A0" stroke-width="1.5">
+    <line x1="141.5" y1="200" x2="141.5" y2="95"/>
+    <line x1="301.7" y1="200" x2="301.7" y2="140"/>
+    <line x1="439.0" y1="200" x2="439.0" y2="70"/>
+    <line x1="538.5" y1="200" x2="538.5" y2="85"/>
+    <line x1="584.2" y1="200" x2="584.2" y2="140"/>
+    <line x1="675.8" y1="200" x2="675.8" y2="140"/>
+    <line x1="821.0" y1="200" x2="821.0" y2="110"/>
+    <line x1="958.3" y1="200" x2="958.3" y2="140"/>
+    <line x1="1118.5" y1="200" x2="1118.5" y2="130"/>
+  </g>
+
+  <!-- tick labels -->
+  <g font-size="16" fill="#2A3550">
+    <text x="141.5" y="89" transform="rotate(-30 141.5 89)">Multiple work orders</text>
+    <text x="301.7" y="134" transform="rotate(-30 301.7 134)">Multiple bills</text>
+    <text x="439.0" y="64" transform="rotate(-30 439.0 64)">Project-level grouping</text>
+    <text x="538.5" y="79" transform="rotate(-30 538.5 79)">Associated tasks</text>
+    <text x="584.2" y="134" transform="rotate(-30 584.2 134)">Re-open tasks</text>
+    <text x="675.8" y="134" transform="rotate(-30 675.8 134)">Clock in / clock out</text>
+    <text x="821.0" y="104" transform="rotate(-30 821.0 104)">Resident scheduling</text>
+    <text x="958.3" y="134" transform="rotate(-30 958.3 134)">Centralized communications</text>
+    <text x="1118.5" y="130" transform="rotate(-30 1118.5 130)">Vendor quick access</text>
+  </g>
+
+  <!-- bar: pill end caps on the very first and very last block -->
+  <path d="M60 200 h173.04 v90 h-173.04 a10 10 0 0 1 -10 -10 v-70 a10 10 0 0 1 10 -10 z" fill="#A8532F"/>
+  <rect x="233.04" y="200" width="137.28" height="90" fill="#C1653D"/>
+  <rect x="370.32" y="200" width="137.28" height="90" fill="#E0A382"/>
+
+  <rect x="523.6" y="200" width="45.76" height="90" fill="#4E7599"/>
+  <rect x="569.36" y="200" width="45.76" height="90" fill="#85A7C9"/>
+  <rect x="615.12" y="200" width="137.28" height="90" fill="#BBD3E5"/>
+
+  <rect x="768.4" y="200" width="137.28" height="90" fill="#4E6B58"/>
+  <rect x="905.68" y="200" width="137.28" height="90" fill="#7A9B85"/>
+  <path d="M1042.96 200 h173.04 a10 10 0 0 1 10 10 v70 a10 10 0 0 1 -10 10 h-173.04 z" fill="#AFC7BA"/>
+
+  <!-- separators within a group -->
+  <g stroke="#FFFFFF" stroke-width="2">
+    <line x1="233.04" y1="200" x2="233.04" y2="290"/>
+    <line x1="370.32" y1="200" x2="370.32" y2="290"/>
+    <line x1="569.36" y1="200" x2="569.36" y2="290"/>
+    <line x1="615.12" y1="200" x2="615.12" y2="290"/>
+    <line x1="905.68" y1="200" x2="905.68" y2="290"/>
+  </g>
+
+  <!-- simple chevron dividers between groups -->
+  <g fill="#FFFFFF">
+    <path d="M507.6 200 L515.6 245 L507.6 290 L515.6 290 L523.6 245 L515.6 200 Z"/>
+    <path d="M752.4 200 L760.4 245 L752.4 290 L760.4 290 L768.4 245 L760.4 200 Z"/>
+  </g>
+
+  <!-- group brackets + labels -->
+  <g stroke="#2A3550" stroke-width="1.5" fill="none">
+    <path d="M60 302 L60 308 L507.6 308 L507.6 302"/>
+    <path d="M523.6 302 L523.6 308 L752.4 308 L752.4 302"/>
+    <path d="M768.4 302 L768.4 308 L1226 308 L1226 302"/>
+  </g>
+
+  <g font-size="19" font-weight="bold" text-anchor="middle">
+    <text x="283.8" y="332" fill="#A8532F">Maintenance Project Management</text>
+    <text x="638" y="332" fill="#4E7599">Maintenance Time Tracking</text>
+    <text x="997.2" y="332" fill="#4E6B58">Maintenance Communication</text>
+  </g>
+  <g font-size="14" font-style="italic" text-anchor="middle" fill="#5B6478">
+    <text x="283.8" y="354">Shipped — three milestones</text>
+    <text x="638" y="354">Epic — loosely scoped</text>
+    <text x="997.2" y="354">Epic — loosely scoped</text>
+  </g>
+</svg>

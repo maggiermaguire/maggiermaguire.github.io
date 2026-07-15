@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <filter id="panelShadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+    <filter id="composerShadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="800" height="500" rx="16" fill="#16233F"/>
+
+  <!-- navbar -->
+  <rect x="24" y="24" width="70" height="12" rx="4" fill="#F5F1E8" fill-opacity="0.16"/>
+  <rect x="330" y="22" width="140" height="16" rx="8" fill="#F5F1E8" fill-opacity="0.08"/>
+  <circle cx="732" cy="30" r="7" fill="#F5F1E8" fill-opacity="0.12"/>
+  <circle cx="758" cy="30" r="7" fill="#F5F1E8" fill-opacity="0.12"/>
+
+  <!-- sidebar -->
+  <rect x="24" y="70" width="62" height="7" rx="3" fill="#F5F1E8" fill-opacity="0.16"/>
+  <rect x="24" y="91" width="54" height="7" rx="3" fill="#F5F1E8" fill-opacity="0.08"/>
+  <rect x="24" y="112" width="58" height="7" rx="3" fill="#F5F1E8" fill-opacity="0.08"/>
+  <rect x="24" y="133" width="48" height="7" rx="3" fill="#F5F1E8" fill-opacity="0.08"/>
+  <rect x="24" y="154" width="52" height="7" rx="3" fill="#F5F1E8" fill-opacity="0.08"/>
+
+  <!-- content cards row -->
+  <rect x="140" y="60" width="190" height="180" rx="8" fill="#F5F1E8" fill-opacity="0.06"/>
+  <rect x="158" y="78" width="110" height="8" rx="3" fill="#F5F1E8" fill-opacity="0.18"/>
+  <rect x="158" y="100" width="140" height="6" rx="3" fill="#F5F1E8" fill-opacity="0.1"/>
+  <rect x="158" y="116" width="120" height="6" rx="3" fill="#F5F1E8" fill-opacity="0.1"/>
+  <rect x="158" y="132" width="130" height="6" rx="3" fill="#F5F1E8" fill-opacity="0.1"/>
+
+  <rect x="346" y="60" width="190" height="180" rx="8" fill="#F5F1E8" fill-opacity="0.06"/>
+  <rect x="364" y="78" width="100" height="8" rx="3" fill="#F5F1E8" fill-opacity="0.18"/>
+  <rect x="364" y="98" width="70" height="16" rx="3" fill="#F5F1E8" fill-opacity="0.14"/>
+  <rect x="364" y="126" width="150" height="6" rx="3" fill="#F5F1E8" fill-opacity="0.1"/>
+
+  <rect x="552" y="60" width="184" height="180" rx="8" fill="#F5F1E8" fill-opacity="0.06"/>
+  <circle cx="644" cy="150" r="46" fill="none" stroke="#F5F1E8" stroke-opacity="0.1" stroke-width="14"/>
+  <circle cx="644" cy="150" r="46" fill="none" stroke="#C1653D" stroke-width="14" stroke-dasharray="130 300" stroke-linecap="round" transform="rotate(-90 644 150)"/>
+
+  <!-- email composer window (cool neutral tone, bottom right) -->
+  <g filter="url(#composerShadow)">
+    <rect x="330" y="270" width="352" height="204" rx="8" fill="#E7EAF0"/>
+    <path d="M330 278a8 8 0 0 1 8-8h336a8 8 0 0 1 8 8v28h-352z" fill="#D7DCE6"/>
+    <rect x="346" y="288" width="10" height="10" rx="2" fill="#16233F" fill-opacity="0.35"/>
+    <rect x="364" y="290" width="80" height="7" rx="3" fill="#16233F" fill-opacity="0.35"/>
+    <circle cx="648" cy="293" r="4" fill="#B9C1D0"/>
+    <circle cx="664" cy="293" r="4" fill="#B9C1D0"/>
+    <circle cx="680" cy="293" r="4" fill="#B9C1D0"/>
+
+    <rect x="346" y="324" width="30" height="6" rx="2" fill="#AEB6C4"/>
+    <rect x="386" y="323" width="220" height="7" rx="2" fill="#D7DCE6"/>
+    <rect x="346" y="346" width="30" height="6" rx="2" fill="#AEB6C4"/>
+    <rect x="386" y="345" width="150" height="7" rx="2" fill="#D7DCE6"/>
+
+    <rect x="346" y="368" width="14" height="14" rx="3" fill="#D7DCE6"/>
+    <rect x="366" y="368" width="14" height="14" rx="3" fill="#D7DCE6"/>
+    <rect x="386" y="368" width="14" height="14" rx="3" fill="#D7DCE6"/>
+    <line x1="346" y1="392" x2="666" y2="392" stroke="#D7DCE6" stroke-width="1.5"/>
+
+    <rect x="346" y="406" width="330" height="6" rx="2" fill="#D7DCE6"/>
+    <rect x="346" y="424" width="280" height="6" rx="2" fill="#D7DCE6"/>
+  </g>
+
+  <!-- AI Assistant popover (warm tone, terracotta outline, the focal point) -->
+  <g filter="url(#panelShadow)">
+    <rect x="564" y="320" width="196" height="150" rx="10" fill="#FAF8F3" stroke="#C1653D" stroke-width="4"/>
+    <path d="M582 334l2.4 6 6 2.4-6 2.4-2.4 6-2.4-6-6-2.4 6-2.4z" fill="#C1653D"/>
+    <rect x="600" y="336" width="68" height="8" rx="3" fill="#16233F" fill-opacity="0.8"/>
+    <circle cx="748" cy="340" r="5" fill="#D8CFBC"/>
+
+    <rect x="580" y="358" width="66" height="6" rx="3" fill="#5B6478" fill-opacity="0.5"/>
+    <rect x="654" y="352" width="62" height="16" rx="8" fill="#E9F1FB" stroke="#85B7EB" stroke-width="1.5"/>
+
+    <rect x="580" y="382" width="164" height="52" rx="6" fill="none" stroke="#E5DFD2" stroke-width="1.5"/>
+    <rect x="590" y="392" width="140" height="6" rx="3" fill="#E5DFD2"/>
+    <rect x="590" y="404" width="115" height="6" rx="3" fill="#E5DFD2"/>
+    <rect x="590" y="416" width="90" height="6" rx="3" fill="#E5DFD2"/>
+
+    <rect x="655" y="444" width="90" height="20" rx="10" fill="#C1653D"/>
+  </g>
+</svg>

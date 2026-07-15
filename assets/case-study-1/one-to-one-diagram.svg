@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+  <rect x="0" y="0" width="600" height="600" rx="16" fill="#FFFFFF"/>
+
+  <line x1="300" y1="128" x2="300" y2="188" stroke="#C9C2AF" stroke-width="2"/>
+  <line x1="300" y1="276" x2="300" y2="336" stroke="#C9C2AF" stroke-width="2"/>
+  <line x1="300" y1="424" x2="300" y2="484" stroke="#C9C2AF" stroke-width="2"/>
+
+  <rect x="70" y="40" width="460" height="88" rx="12" fill="#16233F"/>
+  <text x="300" y="93" text-anchor="middle" font-family="Georgia, serif" font-weight="bold" font-size="26" fill="#F5F1E8">Task</text>
+
+  <rect x="70" y="188" width="460" height="88" rx="12" fill="#16233F"/>
+  <text x="300" y="241" text-anchor="middle" font-family="Georgia, serif" font-weight="bold" font-size="26" fill="#F5F1E8">Work Order</text>
+
+  <rect x="70" y="336" width="460" height="88" rx="12" fill="#16233F"/>
+  <text x="300" y="389" text-anchor="middle" font-family="Georgia, serif" font-weight="bold" font-size="26" fill="#F5F1E8">Bill</text>
+
+  <rect x="70" y="484" width="460" height="60" rx="12" fill="#EDE7D8"/>
+  <text x="300" y="522" text-anchor="middle" font-family="Georgia, serif" font-weight="bold" font-size="22" fill="#16233F">Invoice file</text>
+</svg>
